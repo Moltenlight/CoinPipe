@@ -1,0 +1,72 @@
+body {
+  font-family: Sans-serif;
+  padding: 2.5%;
+  font-size: 15px;
+  background: #000;
+  margin: auto;
+  width: 80%;
+  color: #FAFAFA;
+  background-image: url('lord.png');
+  background-attachment: fixed;
+}
+
+div#box {
+  background: #0F0F0F;
+  margin: auto auto auto auto;
+  width: 80%;
+  padding: 1%;
+  text-align: center;
+  border-width: 2px;
+  border-style: dotted;
+  border-color: #494949;
+  color: #FAFAFA;
+}
+
+h1 {
+  font-size: 20px;
+  margin: 5 auto;
+}
+
+h2 {
+  font-size: 15px;
+  font-weight: bold;
+  margin: auto;
+}
+
+table#info {
+  margin: auto;
+  text-align: left;
+}
+
+table#hist {
+  margin: auto;
+  width: 100%;
+  text-align: left;
+}
+
+td#hl {
+  width: 30%;
+}
+
+td#hc {
+  width: 40%;
+}
+
+td#hr {
+  width: 10%;
+}
+
+a:link
+{
+  color: #40BCFF;
+}
+
+a:visited
+{
+  color: #40BCFF;
+}
+
+a:active
+{
+  color: #91D9FF;
+}

@@ -19,7 +19,6 @@ require_once('config.php');
 // ----------------------------------------------------------------------------
 // Let's do some captcha checking first, to filter out the laziest bots.
 // ----------------------------------------------------------------------------
-$privatekey = "6LcY4-0SAAAAAPUyut2t9F86d8pq2IyF8GJYmW7T";
 $resp = recaptcha_check_answer ($privatekey,
                                 $_SERVER["REMOTE_ADDR"],
                                 $_POST["recaptcha_challenge_field"],
